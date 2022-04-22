@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  padding: 8px 20px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.config {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  justify-content: space-around;
+  // align-items: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: calc(100vh - 210px);
+  // flex: 1 1 0;
+  // flex: 35;
+  overflow-y: auto;
+}
+
+.nextButton {
+  flex: 0;
+  height: 30px;
+  line-height: 30px;
+  padding: 8px 30px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.step1 {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.step2 {
+  display: flex;
+  flex: 1 1 wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.step3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.formItem {
+  margin: 30px !important;
+  width: calc(100% - 60px);
+}
+
+.slots {
+  width: 300px;
+  height: 225px;
+  margin: 10px 0;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.models {
+  width: 300px;
+  height: 225px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.model1 {
+  background: url("../../static/img/line.png") no-repeat center center;
+  background-size: contain;
+}
+
+.model2 {
+  background: url("../../static/img/bar.png") no-repeat center center;
+}
+
+.model3 {
+  background: url("../../static/img/map.png") no-repeat center center;
+}
+
+.model4 {
+  background: url("../../static/img/pie.png") no-repeat center center;
+}
+
+.model5 {
+  background: url("../../static/img/wordle.png") no-repeat center center;
+}
+
+.model6 {
+  background: url("../../static/img/radiation.png") no-repeat center center;
+}
+
+.previewContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.previewContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+}

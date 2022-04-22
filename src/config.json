@@ -1,0 +1,37 @@
+{
+    "config_id": "vsdaa1df",
+    "develop_id": 3,
+    "layout_id": 0,
+    "models": [
+        {
+            "model_id":4,
+            "slot": "0",
+            "datasource_id": "e4rfd6ha",
+            "data_type": "bar",
+            "data_range": {
+                "location": "上海",
+                "time": ["2022-03"]
+            }
+        },
+        {
+            "model_id":2,
+            "slot": "1",
+            "datasource_id": "e4rfd6ha",
+            "data_type": "line",
+            "data_range": {
+                "location": "上海",
+                "time": ["2022-03-19","2022-03-20"]
+            }
+        },
+        {
+            "model_id":6,
+            "slot": "2",
+            "datasource_id": "e4rfd6ha",
+            "data_type": "radia",
+            "data_range": {
+                "location": "上海",
+                "time": ["2022-03-20"]
+            }
+        }
+    ]
+}
